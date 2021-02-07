@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/usernameInIndex"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:text="@string/usernameInMain" />
+
+        <Button
+            android:id="@+id/profileBtn"
+            android:layout_width="170dp"
+            android:layout_height="36dp"
+            android:layout_marginBottom="25dp"
+            android:text="@string/profile" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp">
+        <TextView
+            android:id="@+id/readingListVew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reading_list"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/btnAddBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="@string/add_book" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewBook"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

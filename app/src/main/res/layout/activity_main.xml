@@ -4,30 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
     android:padding="25dp"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/readingListVew"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="25dp"
-        android:text="@string/reading_list"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="30sp" />
-
-    <ListView
-        android:id="@+id/listViewBook"
-        android:layout_width="match_parent"
-        android:layout_height="500dp" />
-
-    <Button
-        android:id="@+id/addBookButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:text="@string/add_book" />
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </LinearLayout>
